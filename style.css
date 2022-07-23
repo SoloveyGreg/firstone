@@ -1,0 +1,88 @@
+  
+      .item {       
+        border-radius: 30px;
+        width: 290px;
+        height: 580px;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: rgb(255, 215, 188);
+      }         
+      .item:hover{
+        box-shadow: 5px 12px 12px #c9f0f3;
+      }
+     
+      .item-img {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 225px;
+        height: 225px;
+        background-color: #eeaaaa;
+      }     
+      .item-title {
+        line-height: 10px;
+        font-family: cursive;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }      
+      .btn {
+        width: 300px;
+        height: 40px;
+        background-color: #d8ec9f;
+        border-radius: 40px;
+        border-color: aqua;
+        border: 0;      
+        transition: 1s;
+      }
+        .btn:hover {
+          background-color: rgb(253, 165, 0);
+          border: 3px;
+          border-radius: 50px;
+          border: #68017c 8px   
+              
+         }
+         #reg {
+            width: 300px;
+            height: 50px;
+            text-align: center;
+            padding: 15px;
+            border: 3px solid #0000cc;
+            border-radius: 10px;
+            color: #0000cc;
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+          }
+          #reg:target {display: block;}
+          #log {
+            width: 300px;
+            height: 50px;
+            text-align: center;
+            padding: 15px;
+            border: 3px solid #0000cc;
+            border-radius: 10px;
+            color: #0000cc;
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+          }
+          #log:target {display: block;}
+.back {max-width:550px; margin:50px auto 0; padding:20px; background:#f3ebe1; font-family:'Oswald', cursive;}
+.form-1, .form-2, .form-3, .form-4 {padding:15px; border:4px double #909090}
+.form-1, .form-2, .form-3 {border-bottom:none}
+.form-1 input {display:block; margin-bottom:10px; width:100%}
+.in {padding-left:40px}
+.in input {width:100%}
+.form-4 input {display:block; height:50px; font-size:24px; width:100%; cursor: pointer}
+         
